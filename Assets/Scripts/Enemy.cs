@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = 2.5f;
     [SerializeField] private XPGem xpGemPrefab;
 
     private Transform _target;

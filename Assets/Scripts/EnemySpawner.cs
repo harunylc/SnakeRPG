@@ -18,9 +18,9 @@ public class EnemySpawner : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private Enemy enemyPrefab;
-    [SerializeField] private float spawnInterval = 2.0f; // Reverting to faster spawn as per recent user preference
-    [SerializeField] private float minSpawnDistance = 5f;
-    [SerializeField] private float maxSpawnDistance = 10f;
+    [SerializeField] private float spawnInterval = 1f; // Reverting to faster spawn as per recent user preference
+    [SerializeField] private float minSpawnDistance = 7f;
+    [SerializeField] private float maxSpawnDistance = 12f;
 
     private float _timer;
 
